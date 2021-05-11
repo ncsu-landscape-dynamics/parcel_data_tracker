@@ -27,7 +27,7 @@ joinCsv = arcpy.JoinField_management(inFeature, inField, joinFeature, joinField)
 
 # Add joined shapefile to map, assign symbology, and export to PNG
 
-myMap = 'E:/PEP/data/parcelsMap.mxd'
+myMap = directory + 'data/parcelsMap.mxd'
 
 mxd = arcpy.mapping.MapDocument(myMap)
 
