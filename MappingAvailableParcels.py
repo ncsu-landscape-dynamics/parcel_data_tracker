@@ -2,7 +2,7 @@
 
 import arcpy
 
-directory = 'E:/PEP/'
+directory = 'E:/PEP/'  # Change to your local directory where data folder will be stored
 
 # Convert csv to dbase and join to shapefile
 
